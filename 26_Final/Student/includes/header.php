@@ -1,11 +1,12 @@
 <?php
+    
     include('includes/arrays.php');
 ?>
 
 <!DOCTYPE html>
 <html> 
 <head>
-	<title></title>
+	<title><?php echo TITLE; ?></title>
 	<link rel="stylesheet" type="text/css" href="assets/styles.css">
 </head>
 <body id="final-example">
@@ -17,7 +18,7 @@
             </a>
 		</div><!-- Banner -->
 		<div id="nav">
-            
+                        
             <?php include('includes/nav.php'); ?>
             
         </div><!-- Nav -->
