@@ -22,7 +22,7 @@
 				</div><!--Column -->
 				
 			</div><!-- Footer -->
-			<small>&copy;2017 Krishan Singh</small>
+			<small>&copy;2017&mdash;Krishan Singh</small>
 		</div><!-- Content -->
 		
 	</div><!-- Wrapper -->
