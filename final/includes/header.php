@@ -1,5 +1,5 @@
 <?php
-    
+    $companyName = "Rranklin;s Fine Dining";
     include('includes/arrays.php');
 ?>
 
@@ -23,3 +23,5 @@
             
         </div><!-- Nav -->
 		<div id="content">
+            
+            <

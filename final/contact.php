@@ -27,7 +27,7 @@
             die(); //if true, kill the script.
         }
         if (!$name || !$email || !$msg) {
-            echo '<h4 class="error">All Fields required.</h4><a href="contact.php class="button block">Go back and try again.</a>';
+            echo '<h4 class="error">All Fields required.</h4><a href="contact.php" class="button block">Go back and try again.</a>';
             exit;
         }
         //add the rcipient email to a variable...
@@ -66,7 +66,7 @@
         <!-- show success message after email has sent...-->
             <h5>Thanks for contacting Franklin's</h5>
             <p>Please allow 24 hours for a response.</p>
-            <p><a href="/final" class="button block">&laquo;Go to Home Page</a></p>
+            <p><a href="/php-learning/final" class="button block">&laquo; Go to Home Page</a></p>
 <?php } else { ?>
         <form method="post" action="" id="contact-form">
             
@@ -82,7 +82,7 @@
             <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
             <label for="email">Subscribe to newsletter</label>
             
-            <input type="submit" class="button next" name="contact-submit" value="Send Message"
+            <input type="submit" class="button next" name="contact_submit" value="Send Message">
         
         </form>
             

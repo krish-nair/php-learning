@@ -18,11 +18,13 @@
 
 					<em>Sunday</em><br>
 					Closed<br><br>
+                    
+                    <?php include('includes/store-hours.php'); ?>
 					
 				</div><!--Column -->
 				
 			</div><!-- Footer -->
-			<small>&copy;2017&mdash;Krishan Singh</small>
+			<small>&copy;<?php echo date('Y'); ?>&mdash;<?php echo $companyName; ?></small>
 		</div><!-- Content -->
 		
 	</div><!-- Wrapper -->
